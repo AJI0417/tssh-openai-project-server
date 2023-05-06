@@ -14,7 +14,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(
   cors({
-    origin: "https://tssh-open-ai-project.vercel.app/",
+    origin: "https://tssh-open-ai-project.vercel.app",
   })
 );
 
